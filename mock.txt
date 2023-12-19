@@ -1,0 +1,15 @@
+package mavenActivity;
+import java.util.*;
+public class MavenActivity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeMap<Integer,String> technology=new TreeMap<Integer,String>();
+		technology.put(1,"Java");
+		technology.put(2, "Python");
+		technology.put(3, "SFDC");
+		System.out.println(technology);
+
+	}
+
+}
